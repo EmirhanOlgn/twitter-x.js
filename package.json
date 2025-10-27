@@ -1,0 +1,27 @@
+{
+  "name": "twitter-x",
+  "version": "1.0.0",
+  "description": "Twitter-X video downloader",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmirhanOlgn/twitter-x.js.git"
+  },
+  "keywords": [],
+  "author": "EmirhanOlgn",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/EmirhanOlgn/twitter-x.js/issues"
+  },
+  "homepage": "https://github.com/EmirhanOlgn/twitter-x.js#readme",
+  "dependencies": {
+    "cli-progress": "^3.12.0",
+    "ffmpeg-static": "^5.2.0",
+    "node-fetch": "^3.3.2",
+    "prompts": "^2.4.2"
+  }
+}
