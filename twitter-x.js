@@ -98,9 +98,9 @@ const main = async () => {
         name: 'mode',
         message: 'İndirme türü:',
         choices: [
-            { title: '🎧 Sadece Ses (MP3)', value: 'mp3' },
             { title: '🎬 Sesli Video (MP4)', value: 'mp4' },
-            { title: '🔇 Sessiz Video (MP4)', value: 'silent' }
+            { title: '🔇 Sessiz Video (MP4)', value: 'silent' },
+            { title: '🎧 Sadece Ses (MP3)', value: 'mp3' }
         ]
     })
 
